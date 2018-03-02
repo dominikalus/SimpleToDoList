@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', serif;
+}
+
+.container {
+    background-color: #444f59;
+    width:auto;
+    max-width: 350px;
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    padding: 5px;
+    color: #fd999a;
+    font-weight: 300;
+}
+
+#addTaskButton, #removeFinishedTasksButton, #taskList li button{
+    border: none;
+    color:white;
+    border-radius: 3px;
+    outline:none;
+}
+
+#addTaskButton, #removeFinishedTasksButton{
+    font-size: 12px;
+    background-color: #fd999a;
+}
+
+#taskList li button{
+    background-color: #3e4149;
+    margin:5px;
+}
+
+#toBeDone {
+    color: #4ea1d3;
+}
+
+#taskInput {
+    font-size: 15px;
+    line-height: 25px;
+    padding: 5px;
+    box-shadow: 0 0 3px grey;
+    border-radius: 5px;
+}
+
+#taskList li{
+    color: #fec8c9;
+    border-top: 1px solid #fec8c9;
+    margin-bottom: 10px;
+    margin-right:20px;
+}
+
