@@ -1,5 +1,5 @@
 # SimpleToDoList
-Basic To Do List in HTML5, CSS3 and plain JavaScript.
+Basic [To Do List](https://dominikalus.github.io/SimpleToDoList/) in HTML5, CSS3 and plain JavaScript.
 
 Functionality: 
 
